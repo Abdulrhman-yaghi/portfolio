@@ -10,25 +10,26 @@ body {
   top: 0;
 }
 
-#all_content{
-  transition:opacity 1s;
-  opacity:0;
-  background:black;
-  width:auto;
-  height:auto;
-  left:0;
-  top:0;
-  margin:0;
-  padding:0;
+#all_content {
+  transition: opacity 1s;
+  opacity: 0;
+  background: black;
+  width: auto;
+  height: auto;
+  left: 0;
+  top: 0;
+  margin: 0;
+  padding: 0;
 }
 
-#welcome{
-  position:fixed;
-  left:50%; top:50%;
-  transform:translate(-50%, -50%);
-  color:white;
-  opacity:1;
-  transition:opacity 1s;
+#welcome {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  opacity: 1;
+  transition: opacity 1s;
 }
 
 #circle {
@@ -97,9 +98,13 @@ body {
   box-shadow: 0 0 2px yellow;
 }
 
-#sattelite, #astronaut, #moon, #sun, #dim2{
-  z-index:2;
-  position:absolute;
+#sattelite,
+#astronaut,
+#moon,
+#sun,
+#dim2 {
+  z-index: 2;
+  position: absolute;
 }
 
 #sattelite {
@@ -267,7 +272,9 @@ body {
 }
 
 .my_image:hover {
-  box-shadow: inset 0 0 26px purple, inset 0 0 20px purple;
+  box-shadow:
+    inset 0 0 26px purple,
+    inset 0 0 20px purple;
 }
 
 .skill {
@@ -281,9 +288,9 @@ body {
   word-spacing: 2px;
 }
 
-.skill:hover{
-  box-shadow:0 0 8px white;
-  cursor:default;
+.skill:hover {
+  box-shadow: 0 0 8px white;
+  cursor: default;
 }
 
 @media only screen and (max-width: 480px) {
@@ -324,21 +331,25 @@ body {
   top: 50%;
   transform: translate(-50%, -50%) scale(0.9) rotate(180deg);
   transition: transform 0.5s;
-  box-shadow: 0 0 30px orange, inset 0 0 12px orange, inset 0 0 5px red,
+  box-shadow:
+    0 0 30px orange,
+    inset 0 0 12px orange,
+    inset 0 0 5px red,
     inset 0 0 13px orange;
   border-radius: 50%;
 }
 
-#sun:hover::after{
-  content:"Today is the best day to shine!";
-  position:absolute;
-  height:auto;
-  min-width:100%;
-  text-align:center;
-  background:rgba(50, 50, 50, 0.5);
-  padding:4px;
-  left:123%; top:50%;
-  transform:translate(-50%, -50%) rotate(90deg);
+#sun:hover::after {
+  content: "Today is the best day to shine!";
+  position: absolute;
+  height: auto;
+  min-width: 100%;
+  text-align: center;
+  background: rgba(50, 50, 50, 0.5);
+  padding: 4px;
+  left: 123%;
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(90deg);
 }
 
 .point {
@@ -398,7 +409,7 @@ body {
   display: none;
   transform: scale(0);
   transition: transform 0.5s;
-  font-size:19px;
+  font-size: 19px;
 }
 
 #cards-container::-webkit-scrollbar,
@@ -511,7 +522,7 @@ body {
   text-align: center;
   left: 50%;
   bottom: 0;
-  font-size:16px;
+  font-size: 16px;
   transform: translate(-50%);
   user-select: none;
   transition: opacity 0.3s;
@@ -566,7 +577,7 @@ body {
   display: none;
   transform: scale(0);
   transition: transform 0.5s;
-  user-select:none;
+  user-select: none;
 }
 
 #contact-container .fa {
@@ -578,7 +589,7 @@ body {
   cursor: pointer;
 }
 
-.fa-facebook-official {
+.fa-github {
   left: 10%;
   top: 15%;
 }
@@ -591,8 +602,8 @@ body {
   transform: scale(1);
 }
 
-#contact-container .fa-facebook-official:hover {
-  color: #3b5998;
+#contact-container .fa-github:hover {
+  color: #24292e;
 }
 
 .fa-codepen {
@@ -605,13 +616,13 @@ body {
   top: 25%;
 }
 
-.fa-instagram {
+.fa-envelope {
   left: 51%;
   top: 12%;
 }
 
-#contact-container .fa-instagram:hover {
-  color: magenta;
+#contact-container .fa-envelope:hover {
+  color: aqua;
 }
 
 .fa-phone-square {
@@ -630,13 +641,13 @@ body {
   color: aqua;
 }
 
-.fa-youtube-play {
+.fa-linkedin-square {
   left: 82%;
   top: 28%;
 }
 
-#contact-container .fa-youtube-play:hover {
-  color: red;
+#contact-container .fa-linkedin-square:hover {
+  color: #0a66c2;
 }
 
 #help-sign {
@@ -684,10 +695,14 @@ body {
   border-radius: 2em;
   width: 1.6em;
   height: 1.6em;
-  line-height:1.25em;
+  line-height: 1.25em;
   text-align: center;
   border: 2px solid white;
-  box-shadow: 0 0 5px orange, 0 0 16px orange, 0 0 5px gold, inset 0 0 5px orange;
+  box-shadow:
+    0 0 5px orange,
+    0 0 16px orange,
+    0 0 5px gold,
+    inset 0 0 5px orange;
   cursor: pointer;
 }
 
@@ -741,11 +756,11 @@ body {
   left: 0;
   top: 0;
   margin: 6px 10px 6px 8px;
-  cursor:pointer;
+  cursor: pointer;
 }
 
-#nav .fa:hover{
-  color:#999999;
+#nav .fa:hover {
+  color: #999999;
 }
 
 #my_img {
@@ -759,14 +774,14 @@ body {
   border-radius: 50%;
 }
 
-#alien-sign{
-  position:absolute;
-  width:auto;
-  height:130px;
-  bottom:calc(100% - 45px);
-  right:-15%;
+#alien-sign {
+  position: absolute;
+  width: auto;
+  height: 130px;
+  bottom: calc(100% - 45px);
+  right: -15%;
 }
 
-#alien-sign:hover{
-  filter:hue-rotate(300deg);
+#alien-sign:hover {
+  filter: hue-rotate(300deg);
 }
